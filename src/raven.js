@@ -44,7 +44,7 @@ var Raven = {
             });
         }
 
-        // "Script error."" is hard coded into browsers for errors that it can't read.
+        // "Script error." is hard coded into browsers for errors that it can't read.
         // this is the result of a script being pulled in from an external domain and CORS.
         globalOptions.ignoreErrors.push('Script error.');
 
